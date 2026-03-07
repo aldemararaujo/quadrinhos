@@ -170,35 +170,35 @@
     </div>
 
     <script>
-        // Dados e Estrutura dos Capítulos
+        // Dados e Estrutura dos Capítulos (Caminhos atualizados para os arquivos fornecidos)
         const blocks = [
             {
                 title: 'Bloco 1, A Visão Geral',
                 items: [
-                    { id: 'cap1', title: 'A Jornada da Pesquisa', img: '01_planeja a pesquisr.png', desc: 'O grande mapa da descoberta, dividindo a ciência em Planejar, Executar e Divulgar.' }
+                    { id: 'cap1', title: 'A Jornada da Pesquisa', img: 'file-service://file-u-1016839369324021235314-unnamed (1).jpg', desc: 'O grande mapa da descoberta, dividindo a ciência em Planejar, Executar e Divulgar.' }
                 ]
             },
             {
                 title: 'Bloco 2, O Ciclo Principal',
                 items: [
-                    { id: 'cap2', title: 'O Planejamento', img: '02_planejar a pesquisa.png', desc: 'A consolidação do projeto como um escudo contra vieses e a submissão ética.' },
-                    { id: 'cap3', title: 'A Execução', img: '03_executar a pesquisa.png', desc: 'Mão na massa, a fase mecânica de coleta e a fase intelectual de análise.' },
-                    { id: 'cap4', title: 'A Divulgação', img: '04_divulgar a pesquisa.png', desc: 'O compartilhamento das suas descobertas com a comunidade e o impacto social.' }
+                    { id: 'cap2', title: 'O Planejamento', img: 'file-service://file-u-1016839369324021235314-unnamed (2).jpg', desc: 'A consolidação do projeto como um escudo contra vieses e a submissão ética.' },
+                    { id: 'cap3', title: 'A Execução', img: 'file-service://file-u-1016839369324021235314-unnamed (3).jpg', desc: 'Mão na massa, a fase mecânica de coleta e a fase intelectual de análise.' },
+                    { id: 'cap4', title: 'A Divulgação', img: 'file-service://file-u-1016839369324021235314-unnamed (4).jpg', desc: 'O compartilhamento das suas descobertas com a comunidade e o impacto social.' }
                 ]
             },
             {
                 title: 'Bloco 3, Aprofundando a Base',
                 items: [
-                    { id: 'cap5', title: 'A Ideia Brilhante', img: '05_desenvolver a ideia brilhante.png', desc: 'Como qualquer pessoa curiosa pode criar o DNA de uma pergunta científica.' },
-                    { id: 'cap6', title: 'O Plano de Intenção', img: '06_redigir o plano de intenção.png', desc: 'Do insight abstrato à primeira estrutura sólida no papel, sem perder a clareza.' },
-                    { id: 'cap7', title: 'Revisão da Literatura', img: '07_revisar a literatura.png', desc: 'O caminho para construir uma base de evidências e encontrar lacunas verdadeiras.' },
-                    { id: 'cap8', title: 'Teste de Instrumentos', img: '08_testar os instrumentos e os procedimentos.png', desc: 'A ponte vital entre a teoria e a prática para garantir que o projeto funcione.' }
+                    { id: 'cap5', title: 'A Ideia Brilhante', img: 'file-service://file-u-1016839369324021235314-unnamed (5).jpg', desc: 'Como qualquer pessoa curiosa pode criar o DNA de uma pergunta científica.' },
+                    { id: 'cap6', title: 'O Plano de Intenção', img: 'file-service://file-u-1016839369324021235314-unnamed (6).jpg', desc: 'Do insight abstrato à primeira estrutura sólida no papel, sem perder a clareza.' },
+                    { id: 'cap7', title: 'Revisão da Literatura', img: 'file-service://file-u-1016839369324021235314-unnamed (7).jpg', desc: 'O caminho para construir uma base de evidências e encontrar lacunas verdadeiras.' },
+                    { id: 'cap8', title: 'Teste de Instrumentos', img: 'file-service://file-u-1016839369324021235314-unnamed (8).jpg', desc: 'A ponte vital entre a teoria e a prática para garantir que o projeto funcione.' }
                 ]
             },
             {
                 title: 'Bloco 4, Bônus',
                 items: [
-                    { id: 'cap9', title: 'Bônus, Quem é o Autor?', img: 'Bônus_quem é o autor de uma pesquisa.png', desc: 'Regras de crédito rigorosas, ética e o papel atual da Inteligência Artificial.' }
+                    { id: 'cap9', title: 'Bônus, Quem é o Autor?', img: 'file-service://file-u-1016839369324021235314-unnamed (9).jpg', desc: 'Regras de crédito rigorosas, ética e o papel atual da Inteligência Artificial.' }
                 ]
             }
         ];
@@ -277,7 +277,7 @@
                                     src="${chapter.img}" 
                                     alt="${chapter.title}"
                                     onerror="this.src='${fallbackUrl}'"
-                                    class="w-full h-full object-contain opacity-85 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
+                                    class="w-full h-full object-cover object-top opacity-85 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
                                 />
                             </div>
 
